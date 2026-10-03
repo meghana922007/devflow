@@ -1,0 +1,15 @@
+{
+  "name": "devflow-workspace",
+  "version": "1.0.0",
+  "description": "DevFlow - Unified Developer Collaboration & Engineering Workflow Platform",
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "npm run build --prefix server && npm run build --prefix client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
