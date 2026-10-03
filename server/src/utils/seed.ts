@@ -64,7 +64,19 @@ export const seedDatabase = async () => {
       },
     });
 
-    console.log('✅ Created 4 Demo Users');
+    const squid7 = await prisma.user.create({
+      data: {
+        name: 'Squid 7',
+        email: 'squid7@devflow.io',
+        password: hashedPassword,
+        role: 'DEVELOPER',
+        bio: 'Core contributor & workflow engineer.',
+        githubUsername: 'squid-7',
+        avatar: 'https://api.dicebear.com/7.x/bottts/svg?seed=squid-7',
+      },
+    });
+
+    console.log('✅ Created 5 Demo Users');
 
     // Create Main Project
     const project1 = await prisma.project.create({
@@ -81,6 +93,7 @@ export const seedDatabase = async () => {
             { userId: meghana.id, role: 'MAINTAINER' },
             { userId: sarah.id, role: 'MEMBER' },
             { userId: marcus.id, role: 'MEMBER' },
+            { userId: squid7.id, role: 'MEMBER' },
           ],
         },
       },

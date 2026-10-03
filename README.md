@@ -49,11 +49,20 @@ The application will be accessible at:
 
 ## 🔑 Demo Credentials
 
-| User | Email | Role |
-| :--- | :--- | :--- |
-| **Alex Rivers** | `alex@devflow.io` | Lead Admin |
-| **Meghana Dev** | `meghana@devflow.io` | Lead Engineer |
-| **Sarah Chen** | `sarah@devflow.io` | Backend Specialist |
-| **Marcus Vance** | `marcus@devflow.io` | Frontend Developer |
+| User | Email | Role | GitHub |
+| :--- | :--- | :--- | :--- |
+| **Alex Rivers** | `alex@devflow.io` | Lead Admin | `@arivers-dev` |
+| **Meghana Dev** | `meghana@devflow.io` | Lead Engineer | `@meghana-dev` |
+| **Squid 7** | `squid7@devflow.io` | Core Contributor | `@squid-7` |
+| **Sarah Chen** | `sarah@devflow.io` | Backend Specialist | `@sarah-chen` |
+| **Marcus Vance** | `marcus@devflow.io` | Frontend Developer | `@marcus-vance` |
 
 *Default password for all demo accounts:* `password123`
+
+---
+
+## 👥 Project Contributors
+
+- [**@meghana922007**](https://github.com/meghana922007) — Project Maintainer & Lead Developer
+- [**@squid-7**](https://github.com/squid-7) — Core Contributor & Workflow Engineer
+
