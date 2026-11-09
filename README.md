@@ -3,7 +3,7 @@
 DevFlow is a unified developer collaboration and engineering workflow platform. It acts as a **centralized layer** bringing together task management, code activity, CI/CD pipeline status, and AI assistance into one developer-focused workspace.
 changes
 * **🔐 User Authentication & Roles**: JWT Bearer token authentication, bcrypt password hashing, and role-based access (`ADMIN`, `LEAD`, `DEVELOPER`). Pre-configured 1-click demo login switch.
-* **📂 Project Workspace Management**: Create & organize engineering projects with custom keys (e.g. `DF`), categories (`WEB`, `MOBILE`, `BACKEND`, `INFRA`, `AI`), and color accents.
+* **📂 Project Workspace Managemgineering projects with custom keys (e.g. `DF`), categories (`WEB`, `MOBILE`, `BACKEND`, `INFRA`, `AI`), and color accents.
 * **📋 Interactive Kanban Board**: 4 workflow stages (`To Do` → `In Progress` → `In Review` → `Done`) with native HTML5 Drag-and-Drop and accessible quick-move action controls.
 * **🏷️ Rich Task Metadata**: Priority pills (`URGENT`, `HIGH`, `MEDIUM`, `LOW`), git branch badges (`feature/branch-name`), tag badges, assignee avatars, and estimated engineering hours.
 * **⚡ Real-time Socket.IO Sync**: Live event broadcasting (`task:created`, `task:updated`, `task:moved`, `task:deleted`) across all connected workspace windows with floating toast notifications.
