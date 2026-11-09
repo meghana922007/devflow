@@ -4,7 +4,7 @@ DevFlow is a unified developer collaboration and engineering workflow platform. 
 
 ---
 
-## 🚀 Key Features (Module 1)
+## Key Features (Module 1)
 
 * **🔐 User Authentication & Roles**: JWT Bearer token authentication, bcrypt password hashing, and role-based access (`ADMIN`, `LEAD`, `DEVELOPER`). Pre-configured 1-click demo login switch.
 * **📂 Project Workspace Management**: Create & organize engineering projects with custom keys (e.g. `DF`), categories (`WEB`, `MOBILE`, `BACKEND`, `INFRA`, `AI`), and color accents.
