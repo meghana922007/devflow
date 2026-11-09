@@ -1,6 +1,6 @@
 # DevFlow ollaboration Platform
 
-DevFlow is a unified developer collaboration and engineering workflow platform. It acts as a **centralized layer** bringing together task management, code activity, CI/CD pipeline status, and AI assistance into one developer-focused workspace.
+DevFlow is a unified developer collaboration and engineering workflow platform. It acts as a **centralized layer** bringing together task management, code activity, CI/CD pipeline status, and AI assista
 
 ---
 
